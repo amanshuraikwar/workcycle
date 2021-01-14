@@ -13,6 +13,16 @@
 		A5676FC025A192E100986229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5676FBF25A192E100986229 /* Preview Assets.xcassets */; };
 		A5676FCB25A192E100986229 /* Work_CycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5676FCA25A192E100986229 /* Work_CycleTests.swift */; };
 		A5676FD625A192E100986229 /* Work_CycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5676FD525A192E100986229 /* Work_CycleUITests.swift */; };
+		A5676FE725A1933900986229 /* CountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5676FE625A1933900986229 /* CountDownView.swift */; };
+		A5676FFA25A1B09D00986229 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5676FF925A1B09D00986229 /* WidgetKit.framework */; };
+		A5676FFC25A1B09D00986229 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5676FFB25A1B09D00986229 /* SwiftUI.framework */; };
+		A5676FFF25A1B09D00986229 /* Work_Cycler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5676FFE25A1B09D00986229 /* Work_Cycler.swift */; };
+		A567700225A1B0A100986229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A567700125A1B0A100986229 /* Assets.xcassets */; };
+		A567700425A1B0A100986229 /* Work_Cycler.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A567700025A1B09D00986229 /* Work_Cycler.intentdefinition */; };
+		A567700525A1B0A100986229 /* Work_Cycler.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A567700025A1B09D00986229 /* Work_Cycler.intentdefinition */; };
+		A567700825A1B0A100986229 /* Work CyclerExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A5676FF725A1B09D00986229 /* Work CyclerExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A5ABFD1825AC8EC200D126E5 /* WorkCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABFD1725AC8EC200D126E5 /* WorkCycle.swift */; };
+		A5ABFD1E25AC944200D126E5 /* WorkCycleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ABFD1D25AC944200D126E5 /* WorkCycleTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +40,28 @@
 			remoteGlobalIDString = A5676FB425A192DF00986229;
 			remoteInfo = "Work Cycle";
 		};
+		A567700625A1B0A100986229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5676FAD25A192DF00986229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5676FF625A1B09D00986229;
+			remoteInfo = "Work CyclerExtension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A567700C25A1B0A100986229 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A567700825A1B0A100986229 /* Work CyclerExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A5676FB525A192DF00986229 /* Work Cycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work Cycle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +76,16 @@
 		A5676FD125A192E100986229 /* Work CycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Work CycleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5676FD525A192E100986229 /* Work_CycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_CycleUITests.swift; sourceTree = "<group>"; };
 		A5676FD725A192E100986229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5676FE625A1933900986229 /* CountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownView.swift; sourceTree = "<group>"; };
+		A5676FF725A1B09D00986229 /* Work CyclerExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Work CyclerExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5676FF925A1B09D00986229 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A5676FFB25A1B09D00986229 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A5676FFE25A1B09D00986229 /* Work_Cycler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_Cycler.swift; sourceTree = "<group>"; };
+		A567700025A1B09D00986229 /* Work_Cycler.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Work_Cycler.intentdefinition; sourceTree = "<group>"; };
+		A567700125A1B0A100986229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A567700325A1B0A100986229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5ABFD1725AC8EC200D126E5 /* WorkCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCycle.swift; sourceTree = "<group>"; };
+		A5ABFD1D25AC944200D126E5 /* WorkCycleTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCycleTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +110,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5676FF425A1B09D00986229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5676FFC25A1B09D00986229 /* SwiftUI.framework in Frameworks */,
+				A5676FFA25A1B09D00986229 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +128,8 @@
 				A5676FB725A192DF00986229 /* Work Cycle */,
 				A5676FC925A192E100986229 /* Work CycleTests */,
 				A5676FD425A192E100986229 /* Work CycleUITests */,
+				A5676FFD25A1B09D00986229 /* Work Cycler */,
+				A5676FF825A1B09D00986229 /* Frameworks */,
 				A5676FB625A192DF00986229 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +140,7 @@
 				A5676FB525A192DF00986229 /* Work Cycle.app */,
 				A5676FC625A192E100986229 /* Work CycleTests.xctest */,
 				A5676FD125A192E100986229 /* Work CycleUITests.xctest */,
+				A5676FF725A1B09D00986229 /* Work CyclerExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,11 +148,13 @@
 		A5676FB725A192DF00986229 /* Work Cycle */ = {
 			isa = PBXGroup;
 			children = (
+				A5ABFD1625AC8EAD00D126E5 /* New */,
 				A5676FB825A192DF00986229 /* Work_CycleApp.swift */,
 				A5676FBA25A192DF00986229 /* ContentView.swift */,
 				A5676FBC25A192E100986229 /* Assets.xcassets */,
 				A5676FC125A192E100986229 /* Info.plist */,
 				A5676FBE25A192E100986229 /* Preview Content */,
+				A5676FE625A1933900986229 /* CountDownView.swift */,
 			);
 			path = "Work Cycle";
 			sourceTree = "<group>";
@@ -130,6 +185,35 @@
 			path = "Work CycleUITests";
 			sourceTree = "<group>";
 		};
+		A5676FF825A1B09D00986229 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5676FF925A1B09D00986229 /* WidgetKit.framework */,
+				A5676FFB25A1B09D00986229 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5676FFD25A1B09D00986229 /* Work Cycler */ = {
+			isa = PBXGroup;
+			children = (
+				A5676FFE25A1B09D00986229 /* Work_Cycler.swift */,
+				A567700025A1B09D00986229 /* Work_Cycler.intentdefinition */,
+				A567700125A1B0A100986229 /* Assets.xcassets */,
+				A567700325A1B0A100986229 /* Info.plist */,
+			);
+			path = "Work Cycler";
+			sourceTree = "<group>";
+		};
+		A5ABFD1625AC8EAD00D126E5 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				A5ABFD1725AC8EC200D126E5 /* WorkCycle.swift */,
+				A5ABFD1D25AC944200D126E5 /* WorkCycleTimer.swift */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,10 +224,12 @@
 				A5676FB125A192DF00986229 /* Sources */,
 				A5676FB225A192DF00986229 /* Frameworks */,
 				A5676FB325A192DF00986229 /* Resources */,
+				A567700C25A1B0A100986229 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A567700725A1B0A100986229 /* PBXTargetDependency */,
 			);
 			name = "Work Cycle";
 			productName = "Work Cycle";
@@ -186,6 +272,23 @@
 			productReference = A5676FD125A192E100986229 /* Work CycleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A5676FF625A1B09D00986229 /* Work CyclerExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A567700925A1B0A100986229 /* Build configuration list for PBXNativeTarget "Work CyclerExtension" */;
+			buildPhases = (
+				A5676FF325A1B09D00986229 /* Sources */,
+				A5676FF425A1B09D00986229 /* Frameworks */,
+				A5676FF525A1B09D00986229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Work CyclerExtension";
+			productName = "Work CyclerExtension";
+			productReference = A5676FF725A1B09D00986229 /* Work CyclerExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +309,9 @@
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = A5676FB425A192DF00986229;
 					};
+					A5676FF625A1B09D00986229 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 				};
 			};
 			buildConfigurationList = A5676FB025A192DF00986229 /* Build configuration list for PBXProject "Work Cycle" */;
@@ -224,6 +330,7 @@
 				A5676FB425A192DF00986229 /* Work Cycle */,
 				A5676FC525A192E100986229 /* Work CycleTests */,
 				A5676FD025A192E100986229 /* Work CycleUITests */,
+				A5676FF625A1B09D00986229 /* Work CyclerExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +359,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5676FF525A1B09D00986229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A567700225A1B0A100986229 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,8 +374,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5676FE725A1933900986229 /* CountDownView.swift in Sources */,
 				A5676FBB25A192DF00986229 /* ContentView.swift in Sources */,
+				A567700525A1B0A100986229 /* Work_Cycler.intentdefinition in Sources */,
+				A5ABFD1825AC8EC200D126E5 /* WorkCycle.swift in Sources */,
 				A5676FB925A192DF00986229 /* Work_CycleApp.swift in Sources */,
+				A5ABFD1E25AC944200D126E5 /* WorkCycleTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +399,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A5676FF325A1B09D00986229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5676FFF25A1B09D00986229 /* Work_Cycler.swift in Sources */,
+				A567700425A1B0A100986229 /* Work_Cycler.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +420,11 @@
 			isa = PBXTargetDependency;
 			target = A5676FB425A192DF00986229 /* Work Cycle */;
 			targetProxy = A5676FD225A192E100986229 /* PBXContainerItemProxy */;
+		};
+		A567700725A1B0A100986229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5676FF625A1B09D00986229 /* Work CyclerExtension */;
+			targetProxy = A567700625A1B0A100986229 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,10 +548,12 @@
 		A5676FDB25A192E100986229 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Work Cycle/Preview Content\"";
+				DEVELOPMENT_TEAM = 8R42UC58VT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Work Cycle/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -436,10 +571,12 @@
 		A5676FDC25A192E100986229 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Work Cycle/Preview Content\"";
+				DEVELOPMENT_TEAM = 8R42UC58VT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Work Cycle/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -534,6 +671,48 @@
 			};
 			name = Release;
 		};
+		A567700A25A1B0A100986229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R42UC58VT;
+				INFOPLIST_FILE = "Work Cycler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.amanshuraikwar.Work-Cycle.Work-Cycler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A567700B25A1B0A100986229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8R42UC58VT;
+				INFOPLIST_FILE = "Work Cycler/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.amanshuraikwar.Work-Cycle.Work-Cycler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,6 +748,15 @@
 			buildConfigurations = (
 				A5676FE125A192E100986229 /* Debug */,
 				A5676FE225A192E100986229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A567700925A1B0A100986229 /* Build configuration list for PBXNativeTarget "Work CyclerExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A567700A25A1B0A100986229 /* Debug */,
+				A567700B25A1B0A100986229 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
