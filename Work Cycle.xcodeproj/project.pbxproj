@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A53CDF5625B1EA0300FFDFC8 /* WorkCycleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CDF5525B1EA0300FFDFC8 /* WorkCycleState.swift */; };
+		A53CDF5C25B1EF4000FFDFC8 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CDF5B25B1EF4000FFDFC8 /* NotificationPermissionView.swift */; };
+		A53CDF6225B1F70200FFDFC8 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CDF6125B1F70200FFDFC8 /* HeaderView.swift */; };
+		A53CDF6825B1F84B00FFDFC8 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53CDF6725B1F84B00FFDFC8 /* ActionButton.swift */; };
 		A55D6F0B25B08D6500272695 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55D6F0A25B08D6500272695 /* SettingsView.swift */; };
 		A55D6F1125B0927F00272695 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55D6F1025B0927F00272695 /* FloatingTextField.swift */; };
 		A5676FB925A192DF00986229 /* Work_CycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5676FB825A192DF00986229 /* Work_CycleApp.swift */; };
@@ -66,6 +70,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A53CDF5525B1EA0300FFDFC8 /* WorkCycleState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCycleState.swift; sourceTree = "<group>"; };
+		A53CDF5B25B1EF4000FFDFC8 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
+		A53CDF6125B1F70200FFDFC8 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A53CDF6725B1F84B00FFDFC8 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
 		A55D6F0A25B08D6500272695 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		A55D6F1025B0927F00272695 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
 		A5676FB525A192DF00986229 /* Work Cycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work Cycle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +169,10 @@
 				A5676FE625A1933900986229 /* CountDownView.swift */,
 				A55D6F0A25B08D6500272695 /* SettingsView.swift */,
 				A55D6F1025B0927F00272695 /* FloatingTextField.swift */,
+				A53CDF5525B1EA0300FFDFC8 /* WorkCycleState.swift */,
+				A53CDF5B25B1EF4000FFDFC8 /* NotificationPermissionView.swift */,
+				A53CDF6125B1F70200FFDFC8 /* HeaderView.swift */,
+				A53CDF6725B1F84B00FFDFC8 /* ActionButton.swift */,
 			);
 			path = "Work Cycle";
 			sourceTree = "<group>";
@@ -380,14 +392,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A53CDF5C25B1EF4000FFDFC8 /* NotificationPermissionView.swift in Sources */,
 				A55D6F0B25B08D6500272695 /* SettingsView.swift in Sources */,
 				A5676FE725A1933900986229 /* CountDownView.swift in Sources */,
 				A5676FBB25A192DF00986229 /* ContentView.swift in Sources */,
+				A53CDF5625B1EA0300FFDFC8 /* WorkCycleState.swift in Sources */,
 				A567700525A1B0A100986229 /* Work_Cycler.intentdefinition in Sources */,
 				A5ABFD1825AC8EC200D126E5 /* WorkCycle.swift in Sources */,
+				A53CDF6225B1F70200FFDFC8 /* HeaderView.swift in Sources */,
 				A5676FB925A192DF00986229 /* Work_CycleApp.swift in Sources */,
 				A5ABFD1E25AC944200D126E5 /* WorkCycleTimer.swift in Sources */,
 				A55D6F1125B0927F00272695 /* FloatingTextField.swift in Sources */,
+				A53CDF6825B1F84B00FFDFC8 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

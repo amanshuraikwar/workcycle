@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct Work_CycleApp: App {
+    
+    @State private var notificationGranted = false
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
