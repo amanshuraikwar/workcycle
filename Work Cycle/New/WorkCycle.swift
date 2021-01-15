@@ -58,3 +58,14 @@ class WorkCycle: ObservableObject {
         case work, rest
     }
 }
+
+extension WorkCycle {
+    struct Data {
+        var workMinutes: String = "0"
+        var restMinutes: String = "0"
+    }
+    
+    var data: Data {
+        return Data(workMinutes: String(workMinutes), restMinutes: String(restMinutes))
+    }
+}

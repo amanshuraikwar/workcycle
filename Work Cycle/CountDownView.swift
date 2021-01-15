@@ -8,24 +8,27 @@
 import SwiftUI
 
 struct CountDownView: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     @Binding var phaseSecondsRemaining: Int
     @Binding var phase: WorkCycle.Phase
     
     var body: some View {
         Text(phaseSecondsRemaining.timeString)
-            .font(.system(.largeTitle, design: .monospaced))
+            //.font(.largeTitle)
+            .font(Font.system(size:60, design: .rounded))
             .bold()
-            .foregroundColor(phase.textColor)
+            .foregroundColor(phase.textColor(isDarkMode: colorScheme == .dark))
             .padding()
     }
 }
 
 extension WorkCycle.Phase {
-    var textColor: Color {
+    func textColor(isDarkMode: Bool) -> Color {
         if self == .rest {
             return .blue
         } else {
-            return .black
+            return isDarkMode ? .white : .black
         }
     }
 }

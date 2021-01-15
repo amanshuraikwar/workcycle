@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A55D6F0B25B08D6500272695 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55D6F0A25B08D6500272695 /* SettingsView.swift */; };
+		A55D6F1125B0927F00272695 /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55D6F1025B0927F00272695 /* FloatingTextField.swift */; };
 		A5676FB925A192DF00986229 /* Work_CycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5676FB825A192DF00986229 /* Work_CycleApp.swift */; };
 		A5676FBB25A192DF00986229 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5676FBA25A192DF00986229 /* ContentView.swift */; };
 		A5676FBD25A192E100986229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5676FBC25A192E100986229 /* Assets.xcassets */; };
@@ -64,6 +66,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A55D6F0A25B08D6500272695 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A55D6F1025B0927F00272695 /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
 		A5676FB525A192DF00986229 /* Work Cycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Work Cycle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5676FB825A192DF00986229 /* Work_CycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work_CycleApp.swift; sourceTree = "<group>"; };
 		A5676FBA25A192DF00986229 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 				A5676FC125A192E100986229 /* Info.plist */,
 				A5676FBE25A192E100986229 /* Preview Content */,
 				A5676FE625A1933900986229 /* CountDownView.swift */,
+				A55D6F0A25B08D6500272695 /* SettingsView.swift */,
+				A55D6F1025B0927F00272695 /* FloatingTextField.swift */,
 			);
 			path = "Work Cycle";
 			sourceTree = "<group>";
@@ -374,12 +380,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55D6F0B25B08D6500272695 /* SettingsView.swift in Sources */,
 				A5676FE725A1933900986229 /* CountDownView.swift in Sources */,
 				A5676FBB25A192DF00986229 /* ContentView.swift in Sources */,
 				A567700525A1B0A100986229 /* Work_Cycler.intentdefinition in Sources */,
 				A5ABFD1825AC8EC200D126E5 /* WorkCycle.swift in Sources */,
 				A5676FB925A192DF00986229 /* Work_CycleApp.swift in Sources */,
 				A5ABFD1E25AC944200D126E5 /* WorkCycleTimer.swift in Sources */,
+				A55D6F1125B0927F00272695 /* FloatingTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
